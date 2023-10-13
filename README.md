@@ -3,6 +3,6 @@ Démo visualisation 3D WEB Chronospédia
 
 Utilisation de visionneuses 3D : 
 
-Modelviewer
+[Modelviewer](https://modelviewer.dev)
 
-(https://smithsonian.github.io/dpo-voyager/)[Smithsonian Voyager]
+[Smithsonian Voyager](https://smithsonian.github.io/dpo-voyager)
