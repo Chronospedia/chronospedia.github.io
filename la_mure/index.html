@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=viewport-width, initial-scale=1.0">
+    <title>Chronospedia</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="/">
+            <img src="/assets/media/BRANDING-CHRONOSPEDIA_B-OR&NOIR.png"/>
+        </a>
+        <div class="menu">
+            <nav>
+                <a href="/">
+                    Comtoise d'édifice
+                </a>
+                <a href="/comtoise">
+                    Comtoise
+                </a>
+                <a href="/la_mure">
+                    Horloge d'édifice de La Mure
+                </a>
+                <a href="/paris_brocot">
+                    Paris-Brocot
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div id="content">
+        <model-viewer 
+        alt="Modèle 3D de mécanisme de la Mure, obtenu par modélisation CAO" 
+        src="/assets/media/la_mure_cao_draco-v1.glb" 
+        ar  
+        shadow-intensity="1" 
+        camera-controls 
+        autoplay
+        min-field-of-view="180"
+        touch-action="pan-y">
+            <button class="ar-button" slot="ar-button">👀 Voir en Réalité augmentée</button>
+        </model-viewer>
+    </div>
+
+    <footer>
+        <div class="logos">
+            <div class="asset">
+                <img src="/assets/media/logos/logo_ministere_culture.png" alt="">
+            </div>
+            <div class="asset">
+                <img src="/assets/media/logos/logo_prefet_auv_rhon_alpes.jpg" alt="">
+            </div>
+            <div class="asset">
+                <img src="/assets/media/logos/logo_collex.png" alt="">
+            </div>
+            <div class="asset">
+                <img src="/assets/media/logos/logo_auvergne_rhone_alpes.svg" alt="">
+            </div>
+            <div class="asset">
+                <img src="/assets/media/logos/logo_dassault.png" alt="">
+            </div>
+            <div class="asset">
+                <img src="/assets/media/logos/logo_uga.png" alt="">
+            </div>
+            <div class="asset">
+                <img src="/assets/media/logos/logo_inist.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
