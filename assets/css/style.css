@@ -6,7 +6,7 @@
  
  *{
    box-sizing: border-box;
-   font-family: 'Lato', sans-serif
+   font-family: 'Noto Sans', 'Lato', sans-serif;
  }
 
  body{
@@ -88,3 +88,13 @@ footer .logos img{
     max-height: 100%;
 }
  
+.text-box{
+  padding: 1rem;
+  max-width: 40rem;
+  background-color: var(--primary);
+  margin: 2rem auto;
+}
+
+.text-box p{
+  color: var(--lightgrey);
+}
