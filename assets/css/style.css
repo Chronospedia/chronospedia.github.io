@@ -98,3 +98,16 @@ footer .logos img{
 .text-box p{
   color: var(--lightgrey);
 }
+
+#translate{
+  float: right;
+}
+
+#translate i.fa-language{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#google_translate_element{
+  display: none;
+}

@@ -1,0 +1,540 @@
+{
+  "asset": {
+    "type": "application/si-dpo-3d.document+json",
+    "version": "1.0",
+    "generator": "Voyager",
+    "copyright": "(c) Smithsonian Institution. All rights reserved."
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "units": "mm",
+      "nodes": [
+        0,
+        1,
+        6
+      ],
+      "setup": 0
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        -0.6546843263686164,
+        2.9798491936761313,
+        6.3616327959801895
+      ],
+      "rotation": [
+        -0.06595399957796795,
+        -0.06708855105207315,
+        -0.004444514840448212,
+        0.995554841555821
+      ],
+      "scale": [
+        1,
+        0.9999999999999999,
+        1
+      ],
+      "name": "Camera",
+      "camera": 0
+    },
+    {
+      "rotation": [
+        0,
+        -0.06723561105867626,
+        0,
+        0.9977371260034209
+      ],
+      "name": "Lights",
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "translation": [
+        0,
+        0,
+        2
+      ],
+      "rotation": [
+        0.4829741072455526,
+        -0.10707280931314123,
+        0.18809980282186348,
+        0.8484632516582726
+      ],
+      "scale": [
+        1,
+        0.9999999999999999,
+        1
+      ],
+      "name": "Key",
+      "light": 0
+    },
+    {
+      "rotation": [
+        0.3546969030895817,
+        0.16389300975709784,
+        -0.38610770336318506,
+        0.8356135648103293
+      ],
+      "name": "Fill #1",
+      "light": 1
+    },
+    {
+      "translation": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0.9374013284601787,
+        -0.3018692929093914,
+        0.05322770161603092,
+        0.1652891139190696
+      ],
+      "name": "Fill #2",
+      "light": 2
+    },
+    {
+      "translation": [
+        1,
+        0,
+        -1
+      ],
+      "rotation": [
+        0.3732559778560461,
+        0.6426073095312872,
+        -0.5786062656733415,
+        0.3360812551381556
+      ],
+      "scale": [
+        0.9999999999999994,
+        0.9999999999999997,
+        0.9999999999999997
+      ],
+      "name": "Rim",
+      "light": 3
+    },
+    {
+      "name": "Model",
+      "model": 0
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "yfov": 52,
+        "znear": 0.1,
+        "zfar": 100000
+      }
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1,
+        0.95,
+        0.9
+      ],
+      "intensity": 1,
+      "type": "directional",
+      "shadowEnabled": true
+    },
+    {
+      "color": [
+        0.9,
+        0.95,
+        1
+      ],
+      "intensity": 0.7,
+      "type": "directional",
+      "shadowEnabled": true
+    },
+    {
+      "color": [
+        0.8,
+        0.85,
+        1
+      ],
+      "intensity": 0.5,
+      "type": "directional"
+    },
+    {
+      "color": [
+        0.85,
+        0.9078313,
+        1
+      ],
+      "intensity": 0.6,
+      "type": "directional"
+    }
+  ],
+  "models": [
+    {
+      "units": "cm",
+      "boundingBox": {
+        "min": [
+          -0.12047550773643945,
+          -0.008999999811363325,
+          -0.06749999858522494
+        ],
+        "max": [
+          0.1204755116623305,
+          0.5299132102249992,
+          0.06749999858522494
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "/assets/media/Lyre-V2-10-4.glb",
+              "type": "Model",
+              "mimeType": "model/gltf-binary"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "lX3s6x5T0MLy",
+          "titles": {
+            "EN": "Centre du mécanisme"
+          },
+          "leads": {
+            "EN": "On rencontre généralement trois types d'aiguilles sur les garde-temps. La plus épaisse et la plus courte est celle qui pointe les heures, on l'appelle justement la petite aiguille. Vient ensuite la tige qui montre les minutes, elle est dénommée grande aiguille, car elle est beaucoup plus longue que celle des heures."
+          },
+          "taglist": {
+            "EN": []
+          },
+          "position": [
+            0.0032035347271164596,
+            0.22568262992988833,
+            0.04529987827956938
+          ],
+          "direction": [
+            3.1813497361366676,
+            -4.542970597679128,
+            999.9846134767242
+          ],
+          "scale": 0.1,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        },
+        {
+          "id": "pErV3ZB6h19k",
+          "titles": {
+            "EN": "New Annotation"
+          },
+          "leads": {
+            "EN": ""
+          },
+          "taglist": {
+            "EN": []
+          },
+          "position": [
+            -0.09963452735784793,
+            0.16651475073909855,
+            0.02300026616320904
+          ],
+          "direction": [
+            -3.9214332017274676,
+            3.921305427748528,
+            999.9846776645024
+          ],
+          "scale": 0.015139143072116445,
+          "color": [
+            0,
+            0.61,
+            0.87
+          ]
+        }
+      ]
+    }
+  ],
+  "setups": [
+    {
+      "units": "cm",
+      "interface": {
+        "visible": true,
+        "logo": true,
+        "menu": true,
+        "tools": true
+      },
+      "viewer": {
+        "shader": "Default",
+        "exposure": 1,
+        "gamma": 2,
+        "annotationsVisible": false
+      },
+      "reader": {
+        "enabled": false,
+        "position": "Overlay"
+      },
+      "navigation": {
+        "type": "Orbit",
+        "enabled": true,
+        "autoZoom": true,
+        "lightsFollowCamera": true,
+        "autoRotation": false,
+        "orbit": {
+          "orbit": [
+            -24,
+            -26,
+            0
+          ],
+          "offset": [
+            0,
+            0,
+            150
+          ],
+          "minOrbit": [
+            -90,
+            null,
+            null
+          ],
+          "maxOrbit": [
+            90,
+            null,
+            null
+          ],
+          "minOffset": [
+            null,
+            null,
+            0.1
+          ],
+          "maxOffset": [
+            null,
+            null,
+            10000
+          ]
+        }
+      },
+      "background": {
+        "style": "RadialGradient",
+        "color0": [
+          0.2,
+          0.25,
+          0.3
+        ],
+        "color1": [
+          0.01,
+          0.03,
+          0.05
+        ]
+      },
+      "floor": {
+        "visible": false,
+        "position": [
+          0,
+          -25,
+          0
+        ],
+        "size": 50,
+        "color": [
+          0.6,
+          0.75,
+          0.8
+        ],
+        "opacity": 0.5,
+        "receiveShadow": false
+      },
+      "grid": {
+        "visible": false,
+        "color": [
+          0.5,
+          0.7,
+          0.8
+        ]
+      },
+      "tape": {
+        "enabled": false,
+        "startPosition": [
+          0,
+          0,
+          0
+        ],
+        "startDirection": [
+          0,
+          0,
+          0
+        ],
+        "endPosition": [
+          0,
+          0,
+          0
+        ],
+        "endDirection": [
+          0,
+          0,
+          0
+        ]
+      },
+      "slicer": {
+        "enabled": false,
+        "axis": "X",
+        "inverted": false,
+        "position": 0.5
+      },
+      "tours": [
+        {
+          "steps": [
+            {
+              "id": "w1lb6Q",
+              "titles": {
+                "EN": "Horloge Lyre"
+              }
+            },
+            {
+              "id": "nauKl3",
+              "titles": {
+                "EN": "Aiguilles"
+              }
+            },
+            {
+              "id": "tn1eIB",
+              "titles": {
+                "EN": "Mécanisme"
+              }
+            }
+          ],
+          "titles": {
+            "EN": "Tour test"
+          },
+          "leads": {
+            "EN": ""
+          },
+          "taglist": {
+            "EN": []
+          }
+        }
+      ],
+      "snapshots": {
+        "features": [
+          "reader",
+          "viewer",
+          "navigation"
+        ],
+        "targets": [
+          "scenes/0/setup/reader/enabled",
+          "scenes/0/setup/reader/articleId",
+          "scenes/0/setup/navigation/orbit",
+          "scenes/0/setup/navigation/offset",
+          "scenes/0/setup/viewer/annotationsVisible",
+          "scenes/0/setup/viewer/activeAnnotation",
+          "scenes/0/setup/viewer/activeTags",
+          "scenes/0/setup/viewer/shader",
+          "scenes/0/setup/viewer/exposure"
+        ],
+        "states": [
+          {
+            "id": "scene-default",
+            "values": [
+              false,
+              "",
+              [
+                -8.82758620689655,
+                -367.6954022988503,
+                0
+              ],
+              [
+                0.2683043229320928,
+                2.449381931296067,
+                6.523427353543208
+              ],
+              false,
+              "",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1,
+            "threshold": 0
+          },
+          {
+            "id": "tn1eIB",
+            "values": [
+              false,
+              "",
+              [
+                0.9540425117551035,
+                -304.17596753835005,
+                0
+              ],
+              [
+                0.20475558781746014,
+                2.11059359236749,
+                0.684406241940029
+              ],
+              false,
+              "",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "nauKl3",
+            "values": [
+              false,
+              "",
+              [
+                -7.580440246865589,
+                -367.7104502969704,
+                0
+              ],
+              [
+                0.20475558781746014,
+                2.11059359236749,
+                1.9909235485014318
+              ],
+              false,
+              "",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "w1lb6Q",
+            "values": [
+              false,
+              "",
+              [
+                -7.580440246865589,
+                -367.7104502969704,
+                0
+              ],
+              [
+                0.20475558781746014,
+                2.11059359236749,
+                6.729186760095946
+              ],
+              false,
+              "",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          }
+        ]
+      }
+    }
+  ]
+}
